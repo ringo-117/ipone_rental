@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/* ヘッダー全体 */
+header {
+  /* ヘッダーの背景 */
+  width: 100%;
+  height: 80px;
+  background-color: #B7C006;
+
+  display: flex; /* 横並びにする */
+  align-items: center; /* 文字を真ん中の高さにする */
+  justify-content: space-between; /* 両端に寄せる */
+  padding: 0 50px; /* 両端に余白を作る */
+}
+
+/* ロゴ */
+h1 {
+  font-size: 20px;
+  color: #333333;
+}
+
+/* ナビゲーション */
+nav ul {
+  display: flex; /* 横並びにする */
+}
+
+nav ul li {
+  margin-left: 30px;
+  font-size: 16px;
+  list-style: none; /* 点を消す */
+}
+
+nav ul li a {
+  text-decoration: none; /* 下線を消す */
+  color: #333333;
+  font-weight: bold; /* 文字を太く */
+}
+
+/* ヒーローイメージ */
+.hero img {
+  width: 100vw; /* 画面幅いっぱい */
+  height: 100vh; /* 画面高さいっぱい */
+  object-fit: cover; /* 画像の比率そのまま */
+  vertical-align: bottom; /* 画像下の余白を消す */
+}
